@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift - Create Beautiful UI</title>
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="font-awesome/CSS/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="header">
+            <h1><img src="Images/logo-nav.png" alt=""> Swift</h1>
+        </div>
+
+        <nav class="sidebar">
+            <h2>Getting Started</h2>
+            <ul class="nav-getting-started">
+                <li><a href="#installation">Installation</a></li>
+            </ul>
+
+            <h2>Components</h2>
+            <ul class="nav-components">
+                <li><a href="#alert">Alert</a></li>
+                <li><a href="#avatar">Avatar</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#badge">Badge</a></li>
+                <li><a href="#card">Card</a></li>
+                <li><a href="#dropdown">Dropdown</a></li>
+                <li><a href="#nav-bar">Nav-Bar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="getting-started">
+            <h1>Getting Started</h1>
+            <p>Hey there! Welcome to Swift! Are you ready to make your UI better than ever?</p>
+
+            <div id="installation">
+                <h2>Installation</h2>
+                <p> To get Started with just include the following CSS link in the Header of your HTML</p>
+                <iframe src="https://carbon.now.sh/embed/GLrNDBDuAStet59Pzh6E"
+                    style="width: 800px; height: 133px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="alert" class="component-box">
+
+            <h1>Components</h1>
+            <h2>Alert</h2>
+            <p>Alert messages can be used to notify the user about something special: danger, success, information or
+                warning</p>
+
+            <div class="alert-box">
+                <div class="alert alert-success">This is a success message</div>
+                <div class="alert alert-warning">This is a warning message</div>
+                <div class="alert alert-info">This is an info message</div>
+                <div class="alert alert-error">This is an Error message</div>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/kxY3iQNK5W1nQ0fnmDD4"
+                style="width: 750px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+        <div id="avatar" class="component-box">
+            <h2>Avatar</h2>
+            <p>The Avatar component is used to represent a user, and displays the profile picture, initials,etc.</p>
+
+            <div class="avatar-box">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="" class="avatar avatar-small">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="" class="avatar avatar-medium">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="" class="avatar avatar-large">
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/uEJT34tQBUJg37KKKN0p"
+                style="width: 800px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+        <div id="button" class="component-box">
+            <h2>Button</h2>
+            <p>Button component represents a clickable button, used to submit forms or anywhere in a document for
+                accessible, standard
+                button functionality.</p>
+
+            <div class="button-box">
+                <button class="btn red-btn">Button</button>
+                <button class="btn blue-btn">Button</button>
+                <button class="btn black-btn">Button</button>
+                <button class="btn green-btn rounded">Button</button>
+                <button class="btn cyan-btn rounded">Button</button>
+                <button class="btn white-btn rounded">Button</button>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/jqAxSYcxcCv3u6uNvm2W"
+                style="width: 800px; height: 257px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+        <div id="badge" class="component-box">
+            <h2>Badge</h2>
+            <p>Badges are used to highlight an item's status for quick recognition.</p>
+
+            <div class="badge-box">
+                <div class="badge-type1">
+                    <span class="num-badge small-blue">5</span>
+                    <span class="num-badge med-red">99</span>
+                    <span class="num-badge med-green">33</span>
+                </div>
+
+                <div class="badge-type2">
+                    <span class="badge badge-blue">Removed</span>
+                    <span class="badge badge-red">Private</span>
+                    <span class="badge badge-green">Success</span>
+                    <span class="badge badge-yellow">Warning</span>
+                    <span class="badge badge-gray">Default</span>
+                    <span class="badge badge-indigo">Public</span>
+                </div>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/VZoZw72zudHCdiVENgmZ"
+                style="width: 800px; height: 366px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+
+        <div id="card" class="component-box">
+            <h2>Card</h2>
+            <p>A card is container for a few short, related pieces of information. Mostly used in e-Commercee websites.
+            </p>
+
+            <div class="card-box">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=989&q=80s"
+                        alt="">
+                    <i class="far fa-heart"></i>
+                    <h2>The Watch</h2>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, Lorem ipsum dolor sit amet
+                        consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, quos!
+                    </span>
+                    <button>Buy</button>
+                </div>
+
+                <div class="user-card ">
+                    <div></div>
+                    <div class="user-details">
+                        <span>JOE SMITH</span>
+                        <span>CEO</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quas. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Maxime, iusto!</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
+                        alt="">
+
+                </div>
+
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/3ibQyijlkORVYbDaYf4W"
+                style="width: 1000px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div id="dropdown" class="component-box">
+            <h2>Dropdown</h2>
+            <p>A drop-down menu, list, or box is a list of options that appears when a button is clicked .</p>
+
+            <div class="dropdown-box">
+                <div class="dropdown-green">
+                    <button class="dropdown dropdown-btn-green">Dropdown<span class="custom-arrow"></span></button>
+                    <div class="menu-content menu-content-green toggle-content-green">
+                        <span><a href="">Nearby</a></span>
+                        <span><a href="">Services</a></span>
+                        <span><a href="">Pricing</a></span>
+                    </div>
+                </div>
+
+                <div class="dropdown-black">
+                    <button class="dropdown dropdown-btn-black">Dropdown<span class="custom-arrow"></span></button>
+                    <div class="menu-content menu-content-black toggle-content-black">
+                        <span><a href="">Nearby</a></span>
+                        <span><a href="">Services</a></span>
+                        <span><a href="">Pricing</a></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/dImlTTmoER9Cmj2ujVJI"
+                style="width: 900px; height: 536px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div id="nav-bar" class="component-box">
+            <h2>Navigation-Bar</h2>
+            <p>Navbar efers to a group of links that lead to different pages of a web site. Navbars are either
+                vertical or horizontal.</p>
+
+            <div class="nav-box">
+
+                <nav class="navbar navbar-purple navbar-rounded">
+                    <h2>Logo/Name</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li><a href=""></a>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navbar navbar-lightBlue">
+                    <h2>Logo/Name</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navbar navbar-dark">
+                    <h2>Logo/Name</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/JszBbP6eOtIkVd2cwkaO"
+                style="width: 800px; height: 720px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+    const dropDownGreen = document.querySelector('.dropdown-btn-green');
+    const dropDownBlack = document.querySelector('.dropdown-btn-black');
+    const menuContentGreen = document.querySelector('.menu-content-green');
+    const menuContentBlack = document.querySelector('.menu-content-black');
+
+    dropDownGreen.addEventListener('click', () => {
+        menuContentGreen.classList.toggle('toggle-content-green');
+    })
+    dropDownBlack.addEventListener('click', () => {
+        menuContentBlack.classList.toggle('toggle-content-black');
+    })
+
+</script>
+
+</html>

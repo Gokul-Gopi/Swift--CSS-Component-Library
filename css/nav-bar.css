@@ -1,0 +1,60 @@
+
+.nav-box{
+    width: 100%;
+}
+
+.nav-box nav{
+    margin-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    padding: 0.5rem 1.5rem;
+}
+
+.navbar-purple{
+    background: #7C3AED;
+    color: white;
+}
+
+.navbar-purple a{
+    color: white;
+}
+.navbar-lightBlue a{
+    color: black;
+}
+.navbar-dark a{
+    color: white;
+}
+
+.navbar-rounded{
+    border-radius: 0px 0px 15px 15px;
+}
+
+.navbar-lightBlue{
+    background:#DBEAFE;
+    color: black;
+}
+
+.navbar-dark{
+    background:#1E293B;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    align-content: center;
+}
+
+.navbar ul li{
+    margin: 4px 13px;
+    transition: all 0.1s;
+}
+
+.navbar ul li:hover{
+    transform: scale(1.2);
+}

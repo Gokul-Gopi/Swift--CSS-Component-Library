@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap');
+
+:root{
+    --primary-color:#BE185D
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.landing-page {
+    padding: 3rem 0rem 2rem 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page span{
+    color: var(--primary-color);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 110px;
+    width: 154px;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-heading{
+    font-size: 9rem;
+    font-weight: 300;
+    line-height: 10rem;
+    text-shadow: 1px 2px 2px black;
+}
+
+.secondary-heading{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 7.5px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.btn-box{
+    margin-top: 40px;
+}
+
+.btn{
+    height: 60px;
+    width: 150px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn-start{
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-start a{
+    color: white;
+}
+
+.btn-download{
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
+.btn-download a{
+    color: var(--primary-color);
+}
+
+.landing-page_img {
+    padding: 3rem 0rem;
+    width: 50%;
+}
+
+.landing-page_img img{
+    width: 85%;
+    display: block;
+    margin: 50px auto;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+footer .fab {
+    color: white;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+footer .fab:hover{
+    color: black;
+}
+
+@media (max-width: 1025px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing-page, .landing-page_img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) and (min-width:411px) {
+    .header{
+       flex-direction: column;
+    }
+
+    .landing-page{
+        padding: 2rem;
+    }
+}

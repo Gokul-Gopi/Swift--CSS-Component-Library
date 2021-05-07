@@ -1,0 +1,60 @@
+.button-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin:40px 0px;
+}
+
+.btn{
+    height: 40px;
+    width: 85px;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
+    transition: 0.2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.red-btn{
+    color: white;
+    background-color: #EF4444;
+}
+
+.blue-btn{
+    color: white;
+    background-color: #3B82F6;
+}
+
+.black-btn{
+    color: white;
+    background-color: #27272A;
+}
+
+.green-btn{
+    color: white;
+    background-color: #22C55E;
+}
+
+.cyan-btn{
+    color: white;
+    background-color: #06B6D4;
+}
+
+.white-btn{
+    color: black;
+    background-color: #fff;
+}
+
+.rounded{
+    border-radius: 50px;
+}

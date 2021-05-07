@@ -1,0 +1,95 @@
+.badge-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px;
+}
+
+.badge-type1{
+    margin-top: 30px;
+}
+
+.badge-type2{
+    margin-top: 60px;
+}
+
+.badge-type2 span{
+    margin: 10px;
+}
+
+.num-badge{
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 1rem;
+
+}
+
+.badge{
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.small-blue{
+    border:3px solid #2563EB;
+    color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.med-red{
+    border:3px solid #DC2626;
+    color: black;
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+}
+
+.med-green{
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+    border:3px solid #22C55E;
+    color: black;
+}
+
+.badge-indigo{
+    background-color: #8B5CF6;
+    color: white;
+}
+
+.badge-red{
+    background-color: #DC2626;
+    color: white;
+}
+
+.badge-green{
+    background-color: #22C55E;
+    color: white;
+}
+
+.badge-yellow{
+    background-color: #FDE047;
+    color: black;
+}
+
+.badge-blue{
+    background-color: #2563EB;
+    color: white;
+}
+
+.badge-gray{
+    background-color: #D4D4D4;
+    color: black;
+}
+
+
+
+
+
