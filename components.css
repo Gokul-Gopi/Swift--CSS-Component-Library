@@ -142,7 +142,11 @@ li a {
 
 #installation {
     margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 #installation h2{
     text-align: center;
     font-weight: 500;
@@ -150,12 +154,11 @@ li a {
 }
 
 #installation p {
-    text-align: left;
+    align-self: flex-start;
 }
 
 #installation iframe{
-    display: block;
-    margin: 60px auto;
+    margin: 30px 0px;
 }
 
 .component-box{
@@ -206,9 +209,9 @@ li a {
     }
 
     .card-box, .dropdown-box, .avatar-box{
-          flex-direction: column;
+        flex-direction: column;
     }
-
+    
     .nav-box{
         width: 100%;
         overflow-x: scroll;
